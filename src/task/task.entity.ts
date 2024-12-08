@@ -12,5 +12,5 @@ export class Task {
     description: string;
 
     @Column()
-    completed: boolean;
+    completed?: boolean;
 }

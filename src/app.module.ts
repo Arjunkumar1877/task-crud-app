@@ -18,8 +18,6 @@ import { TaskModule } from './task/task.module';
     synchronize: true   
    }),
    TaskModule
-  ],
-  controllers: [AppController],
-  providers: [AppService, TaskService],
+  ]
 })
 export class AppModule {}
